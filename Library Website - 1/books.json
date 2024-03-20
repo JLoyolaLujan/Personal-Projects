@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Metamorphosis",
+        "author": "Franz Kafka",
+        "available": true
+    },
+    {
+        "title": "Underfloor Notes",
+        "author": "Fyodr Dostojevski",
+        "available": true
+    },
+    {
+        "title": "No Longer Human",
+        "author": "Osamu Dazai",
+        "available": true
+    },
+    {
+        "title": "The Idiot",
+        "author":"Fyodr Dostojevski",
+        "available": true
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leon Tolstoi",
+        "available": true
+    },
+    {
+        "title": "1984", 
+        "author": "George Orwell",
+        "available": true
+    }, 
+    {
+        "title": "Crime and Punishment",
+        "author":"Fyodr Dostojevski",
+        "available": true
+    },
+    {
+        "title": "The Trial",
+        "author":"Franz Kafka",
+        "available": true
+    }, 
+    {
+        "title": "Hamlet",
+        "author": "William Shakespeare",
+        "available": true
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austin",
+        "available": true
+    },
+    {
+        "title": "King Lear",
+        "author": "William Shakespeare",
+        "available": true
+    },
+    {
+        "title": "Richard the Third",
+        "author": "William Shakespeare",
+        "available": true
+    }
+]

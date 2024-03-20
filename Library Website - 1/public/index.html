@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Library.com</title>
+        </head>
+        <body>
+            <h1>LIBRARY.COM</h1>
+            <form class="container" method="post" action="/api/signup">
+
+                <p>* (required data)</p>
+                
+                <div class="form-group">
+                    <label for="username">name:</label>
+                    <input type="text" name="username" id="username" required> *
+                </div> 
+
+                <br> 
+
+                <div class="form-group">
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" placeholder="example@mail.com" required> *
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label for="password">password:</label>
+                    <input type="password" name="password" id="password" required> *
+                </div> 
+
+                <br>
+
+                <div class="form-group">
+                    <label for="birthdate">birth date:</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label for="tel">phone:</label>
+                    <input type="tel" name="tel" id="tel">
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label for="website">website:</label>
+                    <input type="url" name="website" id="website">
+                </div>
+
+                <br>
+
+                <div class="form-group">
+                    <label for="favourite">favourite genres:</label>
+                    <input type="checkbox" name="favourite1"> Drama
+                    <input type="checkbox" name="favourite2"> Horror
+                    <input type="checkbox" name="favourite3"> Non-fiction 
+                    <input type="checkbox" name="favourite4"> Comedy
+                    <input type="checkbox" name="favourite5"> Satire
+                </div>
+
+                <!--
+                <br>
+
+                <div class="form-group">
+                    <label for="photo">photo:</label>
+                    <input type="file" name="photo" id="photo">
+                </div>
+                -->
+
+                <br>
+
+                <div class="form-group">
+                    <label for="bio">bio:</label>
+                    <textarea name="bio" id="bio" cols="50" rows="5"></textarea>
+                </div>
+
+                <br> 
+
+                <input type="submit" value="signup">
+            </form>
+        </body>
+    </html>
